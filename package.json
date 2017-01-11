@@ -1,0 +1,17 @@
+{
+  "name": "quorum-genesis",
+  "version": "1.0.0",
+  "description": "Simple utility to create a genesis file for Quorum",
+  "main": "index.js",
+  "bin": {
+    "quorum-genesis" : "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dave Bryson",
+  "license": "ISC",
+  "dependencies": {
+    "ethereumjs-util": "^5.0.1"
+  }
+}
